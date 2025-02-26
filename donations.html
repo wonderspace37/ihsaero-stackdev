@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Donate - Rocketry Club</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <img src="https://i.imgur.com/Hy7Ywqo.png" alt="Rocketry Club Logo" class="nav-logo">
+      <a href="/">Home</a>
+      <a href="/team.html">Our Team</a>
+      <a href="/competitions.html">Competitions</a>
+      <a href="/missions.html">Past Missions</a>
+      <a href="/prospectus.html">Prospectus</a>
+      <a href="/donations.html" aria-current="page">Donate</a>
+    </nav>
+    <main>
+      <h1>Support Our Mission</h1>
+      <div class="content">
+        <section>
+          <h2>Why Support Us?</h2>
+          <p>Your donations help us continue our mission of advancing aerospace education and innovation. With your support, we can:</p>
+          <ul class="achievements">
+            <li>Purchase materials and equipment for rocket construction</li>
+            <li>Fund travel to regional and national competitions</li>
+            <li>Provide educational workshops and training for members</li>
+            <li>Expand our outreach programs to inspire the next generation</li>
+          </ul>
+        </section>
+        
+        <section>
+          <h2>Sponsorship Tiers</h2>
+          <div class="tier-grid">
+            <div class="tier">
+              <h3>Bronze Tier - $500</h3>
+              <ul>
+                <li>Logo on club website</li>
+                <li>Acknowledgment in presentations</li>
+                <li>Certificate of appreciation</li>
+              </ul>
+            </div>
+            <div class="tier">
+              <h3>Silver Tier - $1,000</h3>
+              <ul>
+                <li>All Bronze benefits</li>
+                <li>Logo on team t-shirts</li>
+                <li>Social media recognition</li>
+                <li>Invitation to launch events</li>
+              </ul>
+            </div>
+            <div class="tier">
+              <h3>Gold Tier - $2,500</h3>
+              <ul>
+                <li>All Silver benefits</li>
+                <li>Logo on rocket body</li>
+                <li>Company feature in newsletter</li>
+                <li>Presentation to your organization</li>
+              </ul>
+            </div>
+            <div class="tier">
+              <h3>Platinum Tier - $5,000+</h3>
+              <ul>
+                <li>All Gold benefits</li>
+                <li>Primary logo placement on rocket</li>
+                <li>Named sponsorship of a mission</li>
+                <li>Exclusive demo day for your organization</li>
+                <li>Priority access to student recruitment</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        
+        <section>
+          <h2>Make a Donation</h2>
+          <div class="donation-form">
+            <form id="donationForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="amount">Donation Amount</label>
+                <select id="amount" name="amount">
+                  <option value="25">$25</option>
+                  <option value="50">$50</option>
+                  <option value="100">$100</option>
+                  <option value="250">$250</option>
+                  <option value="500">$500</option>
+                  <option value="1000">$1,000</option>
+                  <option value="2500">$2,500</option>
+                  <option value="5000">$5,000</option>
+                  <option value="other">Other Amount</option>
+                </select>
+              </div>
+              <div class="form-group" id="otherAmountGroup" style="display: none;">
+                <label for="otherAmount">Specify Amount</label>
+                <input type="number" id="otherAmount" name="otherAmount" min="1">
+              </div>
+              <div class="form-group">
+                <label for="message">Message (Optional)</label>
+                <textarea id="message" name="message"></textarea>
+              </div>
+              <button type="submit" class="btn">Submit Donation</button>
+            </form>
+          </div>
+        </section>
+        
+        <section>
+          <h2>Contact Us</h2>
+          <p>For more information about sponsorship opportunities or to discuss custom sponsorship packages, please contact our Sponsorship Coordinator:</p>
+          <p><strong>Email:</strong> sponsorship@rocketryclub.org</p>
+          <p><strong>Phone:</strong> (555) 123-4567</p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>© 2024 Rocketry Club. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
